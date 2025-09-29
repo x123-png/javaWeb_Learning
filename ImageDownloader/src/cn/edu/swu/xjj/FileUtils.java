@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 
 public class FileUtils {
     //从url下载图片且保存到指定位置
-    public void saveImage(String strurl,String savePath) throws IOException {
+    public static void saveImage(String strurl,String savePath) throws IOException {
         URL url = new URL (strurl);
         URLConnection connection = url.openConnection();
 
@@ -28,14 +28,14 @@ public class FileUtils {
     }
 
     //查看目录是否存在，不存在则创建
-    public void ensureDirectoryExists(String dirPath){
+    public static void ensureDirectoryExists(String dirPath){
         File outfile = new File(dirPath);
         File dirs = outfile.getParentFile();
         dirs.mkdirs();
     }
 
     //将下载记录追加到download_log.txt文件
-    public void appendLog(String log) throws IOException {
+    public static void appendLog(String log) throws IOException {
         String logpath = "D:\\University\\sophomoric_first_year\\java_learning\\ImageDownloader\\log.txt";
         try(FileWriter fileWriter = new FileWriter(logpath,true)){
             fileWriter.write(log);
