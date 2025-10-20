@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CampusInformationSystem/CampusInformationSystem.iml" filepath="$PROJECT_DIR$/CampusInformationSystem/CampusInformationSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/Download/Download.iml" filepath="$PROJECT_DIR$/Download/Download.iml" />
       <module fileurl="file://$PROJECT_DIR$/ImageDownloader/ImageDownloader.iml" filepath="$PROJECT_DIR$/ImageDownloader/ImageDownloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniWebSvr/MiniWebSvr.iml" filepath="$PROJECT_DIR$/MiniWebSvr/MiniWebSvr.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_learning.iml" filepath="$PROJECT_DIR$/.idea/java_learning.iml" />
     </modules>
   </component>

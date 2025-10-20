@@ -20,13 +20,26 @@ public class ImageManager {
     public void listImage(){
         Set<String> keys = map.keySet();
         System.out.println("存放的图片列表为：");
-        for(String key : keys){
-            System.out.println(key);
-        }
+//        for(String key : keys){
+//            System.out.println(key);
+//        }
+
+        this.map.keySet().forEach(System.out::println);
     }
 
     public void searchImage(String name){
         if(map.containsKey(name)) System.out.println("图片的路径为：" + map.get(name));
         else System.out.println("图片不存在！");
+    }
+
+    public static String getpicname(String url){   //自动获取图片名称
+        String name = "";
+        int index = url.lastIndexOf('/');
+        if(index != -1){
+            name = url.substring(index + 1);
+        }else{
+            System.out.println("未找到文件名称！");
+        }
+        return name;
     }
 }
