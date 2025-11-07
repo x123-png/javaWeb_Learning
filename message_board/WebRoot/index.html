@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>MessageBoard</title>-->
+<!--    <script>-->
+<!--        function validataForm() {-->
+<!--            var x = document.forms["myForm"]["message"].value;-->
+<!--            if (x == null || x ==""){-->
+<!--                alert("请输入信息！");-->
+<!--                return false;-->
+<!--            }-->
+<!--        }-->
+<!--    </script>-->
+<!--</head>-->
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <center>
+        <br><br>
+        <h1>
+            欢迎访问留言板!
+        </h1>
+        <form name="myForm" action="./message" method="post">
+            留言人：<input type="text" name="message"/>
+            <br><br>
+            <textarea name="message" rows='4' cols='50' required></textarea>
+            <br><br>
+            <input type="submit" value="提交留言">
+        </form>
+</center>
+</body>
+</html>
+
