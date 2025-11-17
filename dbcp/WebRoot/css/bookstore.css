@@ -1,0 +1,9 @@
+#book-table {
+      width: 60%;
+      border-collapse: collapse;
+      border-spacing: 10;
+      background-color: #eeeeee;
+      border-radius: 8px;
+      overflow: hidden;
+}
+

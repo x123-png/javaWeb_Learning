@@ -1,0 +1,13 @@
+.tb-book {
+    width: 60%;
+    border-collapse: collapse;
+    border-width: 1px;
+    background-color: #eeeeee;
+    line-height: 2.5em;
+}
+
+.tb-book th {
+    background-color: #336699;
+    color: #ffffff;
+    line-height: 3em;
+}
