@@ -88,14 +88,14 @@ public class MessageServlet extends HttpServlet {
         response.getWriter().println("<!DOCTYPE html>");
         response.getWriter().println("<html><head><title>在线留言板 - 实验</title>");
         // 提示学生可以在这里链接 style.css
-        // response.getWriter().println("<link rel='stylesheet' type='text/css' href='style.css'>");
+        response.getWriter().println("<link rel='stylesheet' type='text/css' href='style.css'>");
         response.getWriter().println("</head><body>");
 
         response.getWriter().println("<h1>留言板 (Servlet 实验)</h1>");
 
-        // 4. 【展示表单】学生需在 index.html 中实现此表单，这里为了方便直接嵌入
+        // 4. 【展示表单】学生需在 index.html 中实现此表单，这里为了方便直接嵌入  上方留言板
         response.getWriter().println("<h2>留下您的印记</h2>");
-        response.getWriter().println("<form action='message' method='POST'>");
+        response.getWriter().println("<form action='message' method='POST' id='msg-form'>");
         response.getWriter().println("昵称: <input type='text' name='name' required><br>");
         response.getWriter().println("留言: <textarea name='message' rows='4' cols='50' required></textarea><br>");
         response.getWriter().println("<input type='submit' value='提交留言'>");
@@ -103,9 +103,9 @@ public class MessageServlet extends HttpServlet {
 
         response.getWriter().println("<hr>");
 
-        // 5. 【展示历史留言】
+        // 5. 【展示历史留言】  下方留言记录
         response.getWriter().println("<h2>历史留言 (" + messageList.size() + " 条)</h2>");
-        response.getWriter().println("<table border='1' width='80%'>");
+        response.getWriter().println("<table border='1' width='80%' id='msg-table'>");
         response.getWriter().println("<tr><th>昵称</th><th>留言内容</th><th>时间</th></tr>");
 
         // 遍历列表，动态生成表格行
