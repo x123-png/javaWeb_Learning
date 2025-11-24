@@ -1,0 +1,511 @@
+/* 全局样式设置 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 标题样式 */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0 30px 0;
+    font-weight: 600;
+}
+
+/* 导航链接样式 */
+.nav-links {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: 1px solid #3498db;
+}
+
+.nav-links a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* 搜索表单样式 */
+.search-form {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.search-form input[type="text"] {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-form input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.search-form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* 图书表单样式 - 水平布局 */
+.book-form {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.form-label {
+    width: 120px;
+    text-align: right;
+    font-weight: 600;
+    color: #2c3e50;
+    flex-shrink: 0;
+}
+
+.form-input {
+    flex: 1;
+}
+
+.form-input input[type="text"],
+.form-input textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.form-input input[type="text"]:focus,
+.form-input textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.form-input textarea {
+    height: 100px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+/* 表单提交按钮 */
+.form-submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-submit input[type="submit"] {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    min-width: 150px;
+}
+
+.form-submit input[type="submit"]:hover {
+    background-color: #1a252f;
+    transform: translateY(-2px);
+}
+
+/* 表格样式 */
+.tb-book {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tb-book th,
+.tb-book td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.tb-book th {
+    background-color: #3498db;
+    color: white;
+    font-weight: 600;
+}
+
+.tb-book tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.tb-book tbody tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* 操作链接样式 */
+.action-links a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.action-links a:first-child { /* 删除链接 */
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+}
+
+.action-links a:first-child:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.action-links a:last-child { /* 修改链接 */
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
+.action-links a:last-child:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* 无数据提示样式 */
+.no-data {
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+/* 全局样式设置（使用渐变背景） */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* 专门针对添加图书页面的表单样式 */
+center form[action="./addBook"] {
+    max-width: 600px;
+    margin: 20px auto !important;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    line-height: 2.5em;
+}
+
+center form[action="./addBook"] input[type="text"],
+center form[action="./addBook"] textarea {
+    width: 65% !important;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+center form[action="./addBook"] input[type="text"]:focus,
+center form[action="./addBook"] textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+center form[action="./addBook"] textarea {
+    width: 65% !important;
+    height: 80px;
+    resize: vertical;
+}
+
+center form[action="./addBook"] input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    width: auto;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+center form[action="./addBook"] input[type="submit"]:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+}
+
+/* 为首页中心容器添加样式 */
+body center {
+    max-width: 800px;
+    margin: 0 auto !important;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: transparent; /* 确保背景透明以显示body渐变 */
+}
+
+/* 首页标题样式 */
+body center > h1 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.2em;
+    margin: 30px 0 20px 0;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+body center > h1:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #3498db, #2980b9);
+    margin: 15px auto;
+    border-radius: 2px;
+}
+
+/* 为标签添加样式 */
+center form[action="./addBook"] {
+    text-align: left;
+}
+
+center form[action="./addBook"] br {
+    line-height: 2em;
+}
+
+/* 添加图书和显示图书链接样式 - 小巧美观版本 */
+center div a[href="./add_book.html"],
+center div a[href="./books"] {
+    display: inline-block;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin: 0 8px;
+    border-radius: 20px; /* 更小的圆角 */
+    transition: all 0.3s ease;
+    border: 1px solid #3498db;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 14px;
+    min-width: 90px;
+}
+
+center div a[href="./add_book.html"]:hover,
+center div a[href="./books"]:hover {
+    background: #3498db;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(52, 152, 219, 0.3);
+}
+
+/* 为添加/显示图书链接添加过渡效果 */
+center div a[href="./add_book.html"]:active,
+center div a[href="./books"]:active {
+    transform: translateY(0);
+}
+
+/* 导航链接容器样式 */
+center div[style*="margin"] {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0 30px 0 !important;
+    flex-wrap: wrap;
+}
+
+/* 查询表单样式 */
+center form[action="./searchBook"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto !important;
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+center form[action="./searchBook"] input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    min-width: 200px;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+center form[action="./searchBook"] input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+}
+
+center form[action="./searchBook"] input[type="submit"] {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(52, 152, 219, 0.3);
+}
+
+center form[action="./searchBook"] input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2980b9, #1c6ea4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.4);
+}
+
+center form[action="./searchBook"] input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .search-form input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .search-form input[type="submit"] {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .tb-book {
+        font-size: 14px;
+    }
+
+    /* 移动端表单响应式 */
+    .book-form {
+        padding: 20px;
+        margin: 0 10px 40px 10px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .form-label {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    /* 移动端优化：添加图书表单 */
+    form[action="./addBook"] {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    form[action="./addBook"] input[type="text"],
+    form[action="./addBook"] textarea {
+        width: 100%;
+    }
+
+    /* 移动端优化：导航链接 */
+    center div a[href="./add_book.html"],
+    center div a[href="./books"] {
+        padding: 8px 16px;
+        margin: 5px;
+        min-width: 85px;
+        font-size: 13px;
+    }
+
+    /* 移动端优化：查询表单 */
+    center form[action="./searchBook"] {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        margin: 20px auto !important;
+    }
+
+    center form[action="./searchBook"] input[type="text"] {
+        width: 100%;
+        min-width: auto;
+        margin: 0;
+    }
+
+    center form[action="./searchBook"] input[type="submit"] {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
