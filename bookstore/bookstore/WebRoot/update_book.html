@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>西大网上书城 - 修改图书</title>
+    <link rel="stylesheet" href="css/bookstore.css" />
+</head>
+<body>
+<center>
+    <br><h1>欢迎访问西大网上书城</h1>
+    <div>
+        <a href="./add_book.html"> 添加图书 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./books"> 显示图书 </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <br>
+    <form action="./updateBook" method="post" style="line-height:3em">
+        <input type="hidden" name="id" id="bookId">
+        书名：<input type="text" name="name" id="bookName" required><br>
+        作者：<input type="text" name="author" id="bookAuthor" required><br>
+        价格：<input type="text" name="price" id="bookPrice" required><br>
+        备注：<textarea rows="3" cols="22" name="memo" id="bookMemo"></textarea><br>
+        日期：<input type="text" name="publish" id="bookPublish" required><br><br>
+        <input type="submit" value="修改图书">
+    </form>
+</center>
+<script>
+    // 从URL参数中获取图书ID并加载图书信息
+    function getUrlParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+    
+    // 获取图书信息并填充表单
+    function loadBookInfo() {
+        const bookId = getUrlParameter('id');
+        if (!bookId) {
+            alert('未指定图书ID');
+            return;
+        }
+        
+        // 设置隐藏域中的ID
+        document.getElementById('bookId').value = bookId;
+        
+        // 创建XMLHttpRequest对象获取图书信息
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', './getBookInfo?id=' + bookId, true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                const book = JSON.parse(xhr.responseText);
+                document.getElementById('bookName').value = book.name;
+                document.getElementById('bookAuthor').value = book.author;
+                document.getElementById('bookPrice').value = book.price;
+                document.getElementById('bookMemo').value = book.memo;
+                document.getElementById('bookPublish').value = book.publish;
+            }
+        };
+        xhr.send();
+    }
+    
+    // 页面加载完成后执行
+    window.onload = loadBookInfo;
+</script>
+</body>
+</html>

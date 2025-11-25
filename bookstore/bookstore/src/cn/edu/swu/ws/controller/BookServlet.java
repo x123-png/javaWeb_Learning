@@ -23,23 +23,9 @@ public class BookServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException {
         ServletContext context = request.getServletContext();
         DatabaseService service = (DatabaseService)context.getAttribute(DatabaseService.CONTEXT_KEY);
-
-        System.out.println("DatabaseService: "+service); //调试输出
-
-        if(service == null) {
-            try{
-                response.getWriter().write("<h1>错误：数据库服务未初始化</h1>");
-                return;
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
-
         try {
             List<Book> books = service.query(
                     "select * from book", new BookResultSetVisitor());
-
-            System.out.println("The number of books queried is："+books.size());;
 
             response.setContentType("text/html");
             response.setCharacterEncoding("UTF-8");

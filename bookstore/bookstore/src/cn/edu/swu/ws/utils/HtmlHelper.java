@@ -58,11 +58,13 @@ public class HtmlHelper {
                 <td align='center'><a href='./updateBook?id=%s'>修改</a></td>
             </tr>
         """;
+        int seqNum = 1;
         for (Book b : books) {
             sb.append(String.format(template,
-                    b.getId(), b.getName(), b.getAuthor(), b.getPrice(), b.getMemo(), b.getPublish(),
+                    seqNum, b.getName(), b.getAuthor(), b.getPrice(), b.getMemo(), b.getPublish(),
                     b.getId(), b.getId()
             ));
+            seqNum++;
         }
         sb.append("</table>");
         return sb.toString();
