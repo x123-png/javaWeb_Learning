@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bookstore" type="kotlin.js">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/WebRoot/lib/bookstore.js" />
+      <root url="file://$PROJECT_DIR$/WebRoot/lib/jquery-3.7.1.min.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

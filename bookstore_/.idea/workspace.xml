@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84a950a-7dd3-468f-8670-cc2e00088b7a" name="Changes" comment="" />
+    <list default="true" id="d84a950a-7dd3-468f-8670-cc2e00088b7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../bookstore2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookstore2/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookstore2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookstore2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookstore2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookstore2/bookstore2.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

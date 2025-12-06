@@ -1,0 +1,52 @@
+.tb-book {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #eeeeee;
+    line-height: 2.5em;
+}
+
+/* 表头单元格边框 */
+.tb-book th {
+  border: 1px solid #666; /* 表头边框：1px 实线 中灰色 */
+  padding: 8px; /* 内边距，让内容更美观 */
+  background-color: #336699;
+  color: #ffffff;
+}
+
+/* 普通单元格边框 */
+.tb-book td {
+  border: 1px solid #999; /* 单元格边框：1px 实线 浅灰色 */
+  padding: 8px;
+  text-align: center; /* 文字居中 */
+}
+
+.pager a{
+  text-decoration: none
+}
+
+#bookTableContainer {
+    text-align: center;
+    width:60%;
+}
+
+.book-div {
+    background-color: #eeeeee;
+    float: left;
+    padding:30px;
+    margin: 30px;
+    border-radius: 10px;
+    line-height: 1.6em;
+}
+
+
+#bookPagerContainer {
+    float: left;
+    text-align: center;
+    width:100%;
+    margin-bottom: 3em;
+    cursor: pointer;
+}
+
+#bookPagerContainer span {
+    cursor: pointer;
+}
