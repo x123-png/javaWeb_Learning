@@ -20,6 +20,22 @@ public class LoginServlet extends HttpServlet {
         //接收参数
         String user = request.getParameter("user");
         String password = request.getParameter("password");
+        String code = request.getParameter("code"); // 获取输入的验证码
+
+        // 验证码校验
+        HttpSession session = request.getSession(false);
+        String captcha = null;
+        if (session != null) {
+            captcha = (String) session.getAttribute(CaptchaServlet.CAPTCHA_KEY);
+        }
+        if (code == null || captcha == null || !code.equalsIgnoreCase(captcha)) {
+            try {
+                response.sendRedirect("./login.html?error=" + java.net.URLEncoder.encode("验证码错误", "UTF-8")); // 正确编码中文错误信息
+                return;
+            } catch (IOException e) {
+                throw new ServletException(e);
+            }
+        }
 
         //构造sql语句
         String template = "select * from user where name = '%s' and password = md5('%s')";
@@ -33,9 +49,9 @@ public class LoginServlet extends HttpServlet {
             if(!users.isEmpty()) {
                 this.loginToken(request, users.get(0));
 
-                response.sendRedirect("./books"); //有用户，则转入到主页
+                response.sendRedirect("./x123-png/books"); //有用户，则转入到主页
             } else {
-                response.sendRedirect("./login.html"); //否则重新登录
+                response.sendRedirect("./login.html?error=" + java.net.URLEncoder.encode("用户名或密码错误", "UTF-8")); //否则重新登录
             }
         } catch (SQLException | IOException e) {
             throw new ServletException(e);

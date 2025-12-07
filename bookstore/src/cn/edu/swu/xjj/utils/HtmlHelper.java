@@ -12,14 +12,15 @@ public class HtmlHelper {
     <head>
       <meta charset="utf-8">
       <title>西大网上书城</title>
-      <link rel="stylesheet" href="css/bookstore.css" />
+      <link rel="stylesheet" href="../css/bookstore.css" />
     </head>
 <body>
     <center>
         <br><h1>欢迎访问西大网上书城</h1>
         <div>
             <a href="./add_book.html"> 添加图书 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="./books"> 显示图书 </a>
+            <a href="./add_book.html"> 显示图书 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./logout"> 退出系统 </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
         <br>

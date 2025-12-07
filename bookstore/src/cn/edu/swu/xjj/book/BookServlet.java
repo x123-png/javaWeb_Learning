@@ -15,7 +15,7 @@ import java.io.Writer;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/books")
+@WebServlet(urlPatterns = "/x123-png/books")
 public class BookServlet extends HttpServlet {
 
     @Override
