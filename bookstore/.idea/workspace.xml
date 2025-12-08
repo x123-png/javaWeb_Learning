@@ -5,22 +5,303 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bfab2a8-913e-4584-9496-978a69791efa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/CaptchaGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/CaptchaServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/backgrounds/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/backgrounds/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/backgrounds/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/backgrounds/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/brand/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/city-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/city-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/device-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-1-1000x900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-1-800x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-2-1000x900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-2-800x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-3-800x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-4-800x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-5-800x600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/screen-about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/screen-contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/screen-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/screen-homepage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/screen-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/prv/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/images/slider/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/vendor/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/vendor/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/js/vendor/js-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_navbar-align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_collapse.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_delimiters.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_masks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_rating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_spotlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/_well.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/vendor/_bootstrap-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/vendor/_bootstrap-tagsinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/components/vendor/_nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/demo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/mixins/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/mixins/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/utilities/_backgrounds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/utilities/_helper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/animate/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-select/css/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-select/css/bootstrap-select.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-select/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-select/js/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-select/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/clipboard-js/clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/clipboard-js/clipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/css/fa-svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-brands.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-regular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-regular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-solid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-solid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-v4-shims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fa-v4-shims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fontawesome-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fontawesome-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fontawesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/fontawesome/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/highlight/css/highlight.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/highlight/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/holderjs/holder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/holderjs/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/input-mask/input-mask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/input-mask/input-mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/jquery-scrollbar/js/jquery-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/jquery-scrollbar/sass/jquery-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/nouislider/css/nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/nouislider/css/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/nouislider/js/nouislider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/nouislider/js/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/popper/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/popper/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/sticky-kit/sticky-kit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/textarea-autosize/textarea-autosize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/assets/vendor/textarea-autosize/textarea-autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/avatars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/badges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/changelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/customization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/file-structure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/introduction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/navs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/plugins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/tooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/docs/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/pages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/pages/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/pages/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRoot/pages/sign-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/compare.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/add_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/x123-png/add_book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/update_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/update_book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/auth/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/auth/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/auth/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/auth/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/BookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/SearchBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/SearchBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/x123-png/add_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/x123-png/add_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/AddBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/AddBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/DeleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/DeleteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/UpdateBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/UpdateBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/repo/BookResultSetVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/repo/BookResultSetVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/utils/HtmlHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/utils/HtmlHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/auth/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/BookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/SearchBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/SearchBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/AddBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/AddBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/DeleteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/UpdateBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/UpdateBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/repo/BookResultSetVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/repo/BookResultSetVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/utils/HtmlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/utils/HtmlHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,19 +338,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CaptchaGenerator.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Smart Tomcat.Unnamed.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/A_University/sophomoric_first_year/java_learning/bookstore",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CaptchaGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A_University/sophomoric_first_year/java_learning/bookstore&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\University\sophomoric_first_year\java_learning\bookstore\WebRoot\x123-png" />

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bfab2a8-913e-4584-9496-978a69791efa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compare/compare.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/x123-png/add_book.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/x123-png/add_book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/AddBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/AddBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/DeleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/DeleteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/UpdateBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/book/UpdateBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/repo/BookResultSetVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/repo/BookResultSetVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/utils/HtmlHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bookstore/cn/edu/swu/xjj/utils/HtmlHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/AddBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/AddBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/DeleteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/UpdateBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/book/UpdateBookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/repo/BookResultSetVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/repo/BookResultSetVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/edu/swu/xjj/utils/HtmlHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/edu/swu/xjj/utils/HtmlHelper.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36TxNqP9kXOKS1JVYSViQ94Z1S4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CaptchaGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A_University/sophomoric_first_year/java_learning/bookstore&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\University\sophomoric_first_year\java_learning\bookstore\WebRoot\x123-png" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.Unnamed">
+    <configuration name="CaptchaGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.swu.xjj.auth.CaptchaGenerator" />
+      <module name="bookstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.swu.xjj.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\mooob\.SmartTomcat\bookstore\bookstore" />
+      <option name="contextPath" value="/bookstore" />
+      <option name="docBase" value="$PROJECT_DIR$/WebRoot" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/11.0.13" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../apache-tomcat-11.0.13" />
+          <option name="version" value="11.0.13.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="-Dfile.encoding=GBK" />
+      <module name="bookstore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CaptchaGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bfab2a8-913e-4584-9496-978a69791efa" name="Changes" comment="" />
+      <created>1765044325752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765044325752</updated>
+    </task>
+    <servers />
+  </component>
+</project>
