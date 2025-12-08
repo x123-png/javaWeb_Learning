@@ -1,22 +1,197 @@
 
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>西大网上书城</title>
+    <title>西大网上书城 - 添加图书</title>
     <link rel="stylesheet" href="../css/bookstore.css" />
+    <style>
+        .upload-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 20px;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .file-input-wrapper input[type="file"] {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .file-input-custom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 20px;
+            border: 2px dashed #3498db;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+            color: #3498db;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 16px;
+            min-height: 60px;
+        }
+
+        .file-input-custom:hover {
+            background-color: #e3f2fd;
+            border-color: #2980b9;
+        }
+
+        .file-input-custom i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .file-name {
+            margin-top: 10px;
+            padding: 8px;
+            background-color: #e3f2fd;
+            border-radius: 4px;
+            font-size: 14px;
+            word-break: break-all;
+            display: none;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            line-height: 1.8em;
+        }
+
+        .form-label {
+            width: 80px;
+            text-align: right;
+            margin-right: 15px;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        .form-input {
+            flex: 1;
+        }
+
+        .form-input input[type="text"],
+        .form-input textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input input[type="text"]:focus,
+        .form-input textarea:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        .form-input textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            background: linear-gradient(to bottom, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover {
+            background: linear-gradient(to bottom, #2980b9, #1c6ea4);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+    </style>
 </head>
 <body>
 <center>
     <br><h1>欢迎访问西大网上书城</h1><br>
-    <form action="./addBook" method="post" enctype="multipart/form-data" style="line-height:3em">
-        书名：<input type="text" name="name"><br>
-        作者：<input type="text" name="author"><br>
-        价格：<input type="text" name="price"><br>
-        备注：<textarea rows="3" cols="22" name="memo"></textarea><br>
-        日期：<input type="text" name="publish"><br>
-        图片：<input type="file" name="picture"><br><br>
-        <input type="submit" value="添加图书">
+    <form action="./addBook" method="post" enctype="multipart/form-data" style="max-width: 700px; margin: 0 auto; padding: 40px; background: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        <div class="form-row">
+            <div class="form-label">书名：</div>
+            <div class="form-input"><input type="text" name="name" required></div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-label">作者：</div>
+            <div class="form-input"><input type="text" name="author" required></div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-label">价格：</div>
+            <div class="form-input"><input type="text" name="price" required></div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-label">日期：</div>
+            <div class="form-input"><input type="text" name="publish" required></div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-label">备注：</div>
+            <div class="form-input"><textarea rows="3" cols="22" name="memo"></textarea></div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-label">图片：</div>
+            <div class="form-input">
+                <div class="upload-container">
+                    <div class="file-input-wrapper">
+                        <input type="file" name="picture" id="fileInput" accept="image/*" required>
+                        <div class="file-input-custom">
+                            <i>📁</i> 选择图书图片
+                        </div>
+                    </div>
+                    <div class="file-name" id="fileName"></div>
+                </div>
+            </div>
+        </div>
+
+        <input type="submit" value="添加图书" class="submit-btn">
     </form>
 </center>
+
+<script>
+    document.getElementById('fileInput').addEventListener('change', function(e) {
+        const fileName = e.target.files[0] ? e.target.files[0].name : '';
+        const fileNameDisplay = document.getElementById('fileName');
+
+        if (fileName) {
+            fileNameDisplay.textContent = fileName;
+            fileNameDisplay.style.display = 'block';
+        } else {
+            fileNameDisplay.style.display = 'none';
+        }
+    });
+</script>
 </body>
 </html>

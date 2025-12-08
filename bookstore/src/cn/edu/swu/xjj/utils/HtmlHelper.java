@@ -19,7 +19,6 @@ public class HtmlHelper {
         <br><h1>欢迎访问西大网上书城</h1>
         <div>
             <a href="./add_book.html"> 添加图书 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="./add_book.html"> 显示图书 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="./logout"> 退出系统 </a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>

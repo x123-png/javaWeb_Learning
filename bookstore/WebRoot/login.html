@@ -1,9 +1,205 @@
 
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="utf-8">
-    <title>西大网上书城</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西大网上书城 - 登录</title>
     <link rel="stylesheet" href="css/bookstore.css" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .login-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            padding: 40px;
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .login-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(to right, #3498db, #2980b9);
+        }
+
+        .login-header {
+            margin-bottom: 30px;
+        }
+
+        .login-header h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin: 0 0 10px 0;
+            font-weight: 600;
+        }
+
+        .login-header p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin: 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #2c3e50;
+            font-size: 1.05em;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="password"]:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .captcha-container input[type="text"] {
+            flex: 1;
+            padding: 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .captcha-container input[type="text"]:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+
+        .captcha-img {
+            height: 50px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .captcha-img:hover {
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+        }
+
+        .refresh-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .refresh-btn:hover {
+            background-color: #2980b9;
+        }
+
+        .submit-btn {
+            background: linear-gradient(to bottom, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background: linear-gradient(to bottom, #2980b9, #1c6ea4);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .error-message {
+            color: #e74c3c;
+            margin: 15px 0;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 30px 20px;
+                margin: 10px;
+            }
+
+            .captcha-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .captcha-img {
+                align-self: center;
+                width: auto;
+            }
+        }
+    </style>
     <script>
         function getParameterByName(name) {
             var urlParams = new URLSearchParams(window.location.search);
@@ -15,7 +211,7 @@
             if (error) {
                 // 解码URL编码的错误信息
                 var decodedError = decodeURIComponent(error.replace(/\+/g, ' '));
-                document.getElementById('error-message').innerHTML = '<div style="color: red;">' + decodedError + '</div>';
+                document.getElementById('error-message').innerHTML = '<div class="error-message">' + decodedError + '</div>';
             }
         }
 
@@ -25,18 +221,38 @@
     </script>
 </head>
 <body onload="displayError()">
-<center>
-    <br><h1>欢迎访问西大网上书城</h1><br>
-    <form action="./login" method="post" style="line-height:3em">
-        用户：<input type="text" name="user"><br>
-        密码：<input type="password" name="password"><br>
-        验证码：<input type="text" name="code"><br>
-        <img id="captcha-img" src="./captcha" onclick="refreshCaptcha()" style="cursor: pointer;" title="点击刷新验证码" />
-        <input type="button" value="刷新" onclick="refreshCaptcha()">
-        <br>
-        <input type="submit" value="登录系统">
-        <div id="error-message"></div>
-    </form>
-</center>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>欢迎访问西大网上书城</h1>
+            <p>请登录您的账户</p>
+        </div>
+
+        <form action="./login" method="post">
+            <div class="form-group">
+                <label for="user">用户名</label>
+                <input type="text" name="user" id="user" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">密码</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="code">验证码</label>
+                <div class="captcha-container">
+                    <input type="text" name="code" id="code" required placeholder="请输入验证码">
+                    <img id="captcha-img" class="captcha-img" src="./captcha" onclick="refreshCaptcha()" title="点击刷新验证码" />
+                    <button type="button" class="refresh-btn" onclick="refreshCaptcha()">刷新</button>
+                </div>
+            </div>
+
+            <input type="submit" value="登录系统" class="submit-btn">
+
+            <div id="error-message"></div>
+        </form>
+
+        <a href="index.html" class="back-link">返回首页</a>
+    </div>
 </body>
 </html>
